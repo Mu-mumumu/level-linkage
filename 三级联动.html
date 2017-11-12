@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		<span>省</span></label><select name="省">
+			<option value="">s</option>
+		</select>
+		<span>市</span></label><select name="市">
+			<option value="">s</option>
+		</select>
+		<span>区</span></label><select name="区">
+			<option value="">d</option>
+		</select>
+		<div class="dd"></div>
+		<div class="dd"></div>
+		<div class="dd"></div>
+	</body>
+	<!–[if lt IE 7]>
+	<script  type="text/javascript" src="./js/json2.js"></script>
+	<![endif]–>	
+	<script src="js/linkage.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript">
+		linkAge.linkInit('dd',"./js/mock.json",'省','市','县');
+	</script>
+</html>
